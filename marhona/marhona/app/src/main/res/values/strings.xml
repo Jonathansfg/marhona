@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MARHONA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesiòn</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Catàlogo</string>
+    <string name="menu_slideshow">Contacto</string>
+
+    <string-array name="spinner">
+        <item>Seleccione:</item>
+        <item>Queja</item>
+        <item>Consulta</item>
+        <item>Devoluciòn</item>
+    </string-array>
+
+    <string-array name="spinner_ticket">
+        <item>Seleccione metodo de pago:</item>
+        <item>PayPal</item>
+        <item>Visa</item>
+        <item>Mastercard</item>
+    </string-array>
+</resources>

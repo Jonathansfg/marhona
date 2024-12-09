@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btncarrito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacto">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="152dp"
+        android:text="Lista de deseos"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="187dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="30dp"
+        android:text="Descripción de la prenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProd" />
+
+    <TextView
+        android:id="@+id/txtDescripcion3"
+        android:layout_width="187dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="40dp"
+        android:text="Descripción de la prenda"
+        app:layout_constraintEnd_toStartOf="@+id/txtDescripcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProd3" />
+
+    <TextView
+        android:id="@+id/txtDescripcion4"
+        android:layout_width="187dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="42dp"
+        android:text="Descripción de la prenda"
+        app:layout_constraintEnd_toStartOf="@+id/txtDescripcion5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProd4" />
+
+    <TextView
+        android:id="@+id/txtDescripcion5"
+        android:layout_width="187dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:text="Descripción de la prenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProd5" />
+
+    <ImageView
+        android:id="@+id/imageProd"
+        android:layout_width="186dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/marhona" />
+
+    <ImageView
+        android:id="@+id/imageProd3"
+        android:layout_width="186dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="42dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageProd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/marhona" />
+
+    <ImageView
+        android:id="@+id/imageProd4"
+        android:layout_width="186dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageProd5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnadircarritoL3"
+        app:srcCompat="@drawable/marhona" />
+
+    <ImageView
+        android:id="@+id/imageProd5"
+        android:layout_width="186dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnadircarritoL"
+        app:srcCompat="@drawable/marhona" />
+
+    <Button
+        android:id="@+id/btnAnadircarritoL"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:text="Añadir al carrito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcion" />
+
+    <Button
+        android:id="@+id/btnAnadircarritoL3"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="41dp"
+        android:text="Añadir al carrito"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/btnAnadircarritoL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcion3" />
+
+    <Button
+        android:id="@+id/btnRegresarL"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="177dp"
+        android:text="Regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnadircarritoL4" />
+
+    <Button
+        android:id="@+id/btnAnadircarritoL4"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="42dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:text="Añadir al carrito"
+        app:layout_constraintEnd_toStartOf="@+id/btnAnadircarritoL5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcion4" />
+
+    <Button
+        android:id="@+id/btnAnadircarritoL5"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:text="Añadir al carrito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcion5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

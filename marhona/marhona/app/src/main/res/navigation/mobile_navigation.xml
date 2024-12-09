@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.practica07.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.practica07.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_galleryFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.practica07.ui.carrito.CarritoFragment"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_carrito">
+        <action
+            android:id="@+id/action_carritoFragment_to_pedidoFragment"
+            app:destination="@id/pedidoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pedidoFragment"
+        android:name="com.example.practica07.ui.pedido.PedidoFragment"
+        android:label="Pedido"
+        tools:layout="@layout/fragment_pedido" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.practica07.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.practica07.ui.detail.DetailFragment"
+        android:label="Detalle del Producto"
+        tools:layout="@layout/fragment_detail" />
+
+    <fragment
+        android:id="@+id/nav_lista_deseos"
+        android:name="com.example.practica07.ui.lista_deseos.ListaDeseosFragment"
+        android:label="Lista de Deseos"
+        tools:layout="@layout/fragment_lista_deseos" />
+
+</navigation>

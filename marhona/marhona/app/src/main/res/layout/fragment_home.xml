@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.GalleryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="173dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="35dp"
+                android:src="@drawable/local2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView20"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="470dp"
+                android:layout_height="157dp"
+                android:src="@drawable/bannerinicio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="369dp"
+                android:layout_height="103dp"
+                android:layout_marginTop="36dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.619"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/marhonaletrasconcontornoblanco" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="342dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="35dp"
+                android:text="Marhona se distingue por ofrecer una calidad excepcional en cada una de sus prendas y accesorios, combinando materiales de primera categoría con diseños modernos y funcionales. Cada producto es cuidadosamente seleccionado para garantizar comodidad, durabilidad y estilo, adaptándose a las necesidades y gustos de nuestros clientes."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="157dp"
+                android:layout_height="236dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="11dp"
+                android:src="@drawable/local"
+                app:layout_constraintEnd_toStartOf="@+id/imageView22"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="174dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="35dp"
+                android:src="@drawable/local3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="327dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="42dp"
+                android:text="En Marhona siempre pensamos en ti, por eso te traemos las mejores ofertas en nuestras prendas y accesorios. Renueva tu guardarropa con descuentos exclusivos y lleva tu estilo al siguiente nivel sin gastar de más. ¡No te pierdas nuestras promociones por tiempo limitado!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="344dp"
+                android:layout_height="274dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="35dp"
+                android:src="@drawable/local4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
